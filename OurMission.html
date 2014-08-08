@@ -1,257 +1,174 @@
 
 <html>
 <style type="text/css"> 
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
-body {
-	background: url(../images/bg-body.jpg) repeat;
-	margin: 0;
-}
-img {
-	border: 0;
-}
-#background {
-	background-color: #050404;
-	display: block;
-	height: 1440px;
-	width: 50%;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
-#page {
-	background: url(../images/bg-page.jpg) repeat-y left top;
-	width: 960px;
-	margin: 0 auto;
-	position: relative;
-}
+<body> <!-- Start Fixed Template Info Header -->
+	<div id="templateInfo">
+		<div>
+			<h2><a target="_blank" href="/">&nbsp;<!-- FREE WEBSITE TEMPLATES --></a></h2>
+				<ul class="navigation">
+					
+					<li class="download"><a href="/download/artistwebtemplate/" data-ga-event="click" data-ga-category="Previews Top Bar" data-ga-action="Download Click" data-ga-label="Artist website template">Download</a></li>     
+					<li class="discuss"><a href="/discuss/artistwebtemplate/" data-ga-event="click" data-ga-category="Previews Top Bar" data-ga-action="Discuss Click" data-ga-label="Artist website template">Discuss</a></li>     		     
+				</ul>
+		</div>
+	</div>  
+	<div id="clearance">&nbsp;</div>
+	<!-- End  Fixed Template Info Header -->
+	<div id="templatePreview"><!-- start of templatePreview Added div to act like a frame-->
+	
+	<span id="background"></span>
+	<div id="page">
+		<div id="sidebar">
+			<div id="logo">
+				<a href="index.html">The selected works of <em>Christianne Manjow</em></a>
+			</div> <!-- /#logo -->
+			<ul id="navigation">
+				<li><a href="about.html">About</a></li>
+				<li class="selected"><a href="index.html">Illustrations</a></li>
+				<li><a href="images.html">Selected Images</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+			</ul> <!-- /#navigation -->
+			<ul id="connect">
+				<li><a href="http://facebook.com/freewebsitetemplates" target="_blank" class="facebook"></a></li>
+				<li><a href="http://twitter.com/fwtemplates" target="_blank" class="twitter"></a></li>
+				<li><a href="blog.html" class="link-us"></a></li>
+			</ul> <!-- /#connect -->
+			<div class="footer">
+				&copy; Copyright &copy; 2011.<br/>
+				<a href="index.html">Company name</a> all rights reserved.
+			</div> <!-- /.footer -->
+		</div> <!-- /#sidebar -->
+		
+		<div id="contents">
+			<span class="header"></span>
+			<ul class="images">
+				<li><img src="images/illustration1.jpg" alt="Img" /></li>
+				<li><img src="images/illustration2.jpg" alt="Img" /></li>
+				<li><img src="images/leaves.jpg" alt="Img" /></li>
+				<li><img src="images/kangaroo.jpg" alt="Img" /></li>
 
-#connect .facebook, #connect .twitter, #connect .link-us {
-	background: url(../images/icons.gif) no-repeat;
-}
-#contents span.header, #contents h3, #contents ul li, #contents div.blogs span {
-	background: url(../images/interface.gif) no-repeat;
-}
+				<li><img src="images/witch.jpg" alt="Img" /></li>
+				<li><img src="images/funny-boy.jpg" alt="Img" /></li>
+				<li><img src="images/chicken.jpg" alt="Img" /></li>
+				<li><img src="images/boy-with-googles.jpg" alt="Img" /></li>
 
-/** Links **/
-#sidebar {
-	float: left;
-	color: #ebebeb;
-	height: 100%;
-	width: 260px;
-	padding-left: 5px;
-}
-#sidebar ul {
-	list-style-type: none;
-	margin: 0 0 60px;
-	padding: 0;	
-	text-align: left;
-}
-#sidebar a {
-	color: #ebebeb;
-	text-decoration: none;
-}
+				<li><img src="images/happy-girl.jpg" alt="Img" /></li>
+				<li><img src="images/girl-smiling.jpg" alt="Img" /></li>
+				<li><img src="images/cow.jpg" alt="Img" /></li>
+				<li><img src="images/boy-scouts.jpg" alt="Img" /></li>
 
-#logo {
-	line-height: 20px;
-	margin: 0 0 60px;
-}
-#logo a {
-	background: url(../images/logo.jpg) no-repeat right top;
-	color: #be1010;
-	display: block;
-	font-size: 14px;
-	width: 209px;
-	padding: 159px 25px 0;
-	text-align: center;
-}
-#logo a em {
-	font-size: 16px;
-}
+				<li><img src="images/splash.jpg" alt="Img" /></li>
+				<li><img src="images/funny-cartton.jpg" alt="Img" /></li>
+				<li><img src="images/licking.jpg" alt="Img" /></li>
+				<li><img src="images/girl-smile2.jpg" alt="Img" /></li>
 
-#navigation li {
-	font-size: 19px;
-	line-height: 40px;
-}
-#navigation li a {
-	display: block;
-	width: 259px;
-	text-transform: uppercase;
-}
-#navigation li.selected a, #navigation li a:hover {
-	background: url(../images/menu-selected.gif) no-repeat 190px center;
-}
+				<li><img src="images/drums.jpg" alt="Img" /></li>
+				<li><img src="images/long-nose.jpg" alt="Img" /></li>
+				<li><img src="images/man-in-cap.jpg" alt="Img" /></li>
+				<li><img src="images/robots.jpg" alt="Img" /></li>
 
-#connect {
-	display: inline-block;
-}
-#connect li {
-	float: left;
-	width: 85px;
-	text-align: center;
-}
-#connect li a {
-	display: block;
-	height: 36px;
-	margin: 0 auto;
-}
-#connect .facebook {
-	background-position: 0 0;
-	width: 40px;
-}
-#connect .twitter {
-	background-position: 0 -47px;
-	width: 46px;
-}
-#connect .link-us {
-	background-position: 0 -94px;
-	width: 40px;
-}
+				<li><img src="images/sexy-girl.jpg" alt="Img" /></li>
+				<li><img src="images/girl-smiling3.jpg" alt="Img" /></li>
+				<li><img src="images/long-bland-hair.jpg" alt="Img" /></li>
+				<li><img src="images/girl-smiling4.jpg" alt="Img" /></li>
 
-#sidebar .footer {
-	font-size: 12px;
-	line-height: 20px;
-	text-align: center;
-}
-
-/** Contents **/
-#contents {
-	min-height: 1380px;
-	width: 690px;
-	margin: 0 0 0 264px;
-	padding-top: 60px;
-}
-#contents span.header {
-	background-position: 0 -224px;
-	display: block;
-	height: 47px;
-	width: 644px;
-	margin: 0 auto 13px;
-}
-#contents h3 {
-	background-position: 0 -154px;
-	color: #ebebeb;
-	font-weight: normal;
-	height: 27px;
-	width: 596px;
-	margin: 0 auto;
-	padding: 18px 8px 15px;
-	text-transform: uppercase;
-}
-#contents div {
-	width: 612px;
-	margin: 0 auto;
-	padding: 0 0 20px;
-}
-#contents div a {
-	color: #a40e0e;
-	text-decoration: none;
-}
-#contents div p {
-	font-size: 13px;
-	line-height: 20px;
-	margin: 20px 0 19px;
-	padding: 0 0 20px;
-}
-
-#contents ul.images {
-	display: inline-block;
-	list-style-type: none;
-	width: 622px;
-	margin: 0 auto 15px;
-}
-#contents ul.images li {
-	float: left;
-	background-position: 0 0;
-	height: 130px;
-	width: 130px;
-	margin: 13px 5px 13px;
-	padding: 7px 7px 17px;
-}
-
-#contents .img-gallery {
-	color: #000000;
-	display: block;
-	font-size: 11px;
-	line-height: 20px;
-	margin-left: 40px; 
-}
-
-#contents a.more {
-	font-style: italic;
-	text-decoration: underline;
-}
-
-/** About **/
-#contents div.links a {
-	background-color: #bfbdbd;
-	color: #faf7f7;
-	font-size: 12px;
-	padding: 2px 10px 1px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-#contents div.about {
-	margin-bottom: 0;
-	padding-bottom: 20px;
-}
-
-#contents div.about span {
-	font-size: 13px;
-	line-height: 20px;
-	text-transform: uppercase;
-}
-
-#contents div.tags {
-	background-color: #bfbdbd;
-	height: 40px;
-	line-height: 40px;
-	margin-bottom: 20px;
-	padding: 0;
-}
-#contents div.tags span {
-	color: #626262;
-	font-size: 0.92em;
-	padding: 0 10px;
-	text-transform: uppercase;
-}
-#contents div.tags a {
-	color: #faf7f7;
-	font-size: 12px;
-	padding: 0 10px;
-}
-
-/** Blog **/
-#contents div.blogs p {
-	height: 160px;
-	margin: 0;
-	padding: 0;
-}
-#contents div.blogs span {
-	float: left;
-	background-position: 0 0;
-	display: block;
-	height: 130px;
-	width: 130px;
-	margin-right: 10px;
-	padding: 7px 7px 23px;
-}
-#contents div.paginate a {
-	color: #434242;
-	font-size: 0.9em;
-	padding: 0 3px;
-}
-
-/** IE6 **/
-#background {
-	_height: 1440px;
-}
-
-#sidebar {
-	_height: 1440px;
-}
+				<li><img src="images/family.jpg" alt="Img" /></li>
+				<li><img src="images/shock.jpg" alt="Img" /></li>
+				<li><img src="images/boy-with-headphones.jpg" alt="Img" /></li>
+				<li><img src="images/fat-girl.jpg" alt="Img" /></li>
+			</ul>
+		</div> <!-- /#contents -->
+		<div align="center"><br /><br />
+<a rel="nofollow" href="http://www.freewebsitetemplates.com/link/create-your-own-free-website/" data-ga-event="click" data-ga-category="Image Link" data-ga-action="Ad Click" data-ga-label="Banner for template preview pages"><img src="/images/website/thumbs/29_1.png" alt="Create free websites" /></a>
+</div>
+	</div> <!-- /#page -->
+	</div><!-- end of templatePreview--><script>
 
 
+jQuery.extend(true, XenForo,
+{
+	visitor: { user_id: 0 },
+	serverTimeInfo:
+	{
+		now: 1407527479,
+		today: 1407474000,
+		todayDow: 5
+	},
+	_lightBoxUniversal: "0",
+	_enableOverlays: "1",
+	_animationSpeedMultiplier: "1",
+	_overlayConfig:
+	{
+		top: "10%",
+		speed: 200,
+		closeSpeed: 100,
+		mask:
+		{
+			color: "rgb(255, 255, 255)",
+			opacity: "0.6",
+			loadSpeed: 200,
+			closeSpeed: 100
+		}
+	},
+	_ignoredUsers: [],
+	_loadedScripts: [],
+	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
+	_csrfToken: "",
+	_csrfRefreshUrl: "login/csrf-token-refresh",
+	_jsVersion: "4d960095"
+});
+jQuery.extend(XenForo.phrases,
+{
+	cancel: "Cancel",
+
+	a_moment_ago:    "A moment ago",
+	one_minute_ago:  "1 minute ago",
+	x_minutes_ago:   "%minutes% minutes ago",
+	today_at_x:      "Today at %time%",
+	yesterday_at_x:  "Yesterday at %time%",
+	day_x_at_time_y: "%day% at %time%",
+
+	day0: "Sunday",
+	day1: "Monday",
+	day2: "Tuesday",
+	day3: "Wednesday",
+	day4: "Thursday",
+	day5: "Friday",
+	day6: "Saturday",
+
+	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
+	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+
+	following_error_occurred: "The following error occurred",
+	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
+	logging_in: "Logging in",
+	click_image_show_full_size_version: "Click this image to show the full-size version.",
+	show_hidden_content_by_x: "Show hidden content by {names}"
+});
+
+// Facebook Javascript SDK
+XenForo.Facebook.appId = "";
+XenForo.Facebook.forceInit = false;
+
+
+</script>
+	<!-- Piwik -->
+	<script type="text/javascript"> 
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.freewebsitetemplates.com/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', 1]);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+	    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	
+	</script>
+	<noscript><p><img src="http://piwik.freewebsitetemplates.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+
+</body>
 </html>
